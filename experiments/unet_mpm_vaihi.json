@@ -1,0 +1,24 @@
+{
+  "name": "tmp",
+  "dataset": {
+    "name": "vaihingen"
+  },
+  "statistic_estimation": {
+    "method": "RF"
+  },
+  "neural_architecture": {
+    "net": "U-Net"
+  },
+  "method": {
+    "theta": 0.82,
+    "phi": 0.82,
+    "top_down": "hilZZ",
+    "only_portion": false,
+    "coord": {
+      "fx": 10,
+      "tx": 50,
+      "fy": 10,
+      "ty": 50
+    }
+  }
+}

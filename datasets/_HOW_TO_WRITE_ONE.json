@@ -1,0 +1,14 @@
+{
+  // name of the dataset
+  "name" : "vaihingen",
+  // num of resolutions
+  "R" : 4,
+  "data": {
+    // width of the biggest image
+    "W" : 1024,
+    // height of the biggest image
+    "H" : 1024,
+    // num of classes
+    "C" : 5,
+  }
+}
