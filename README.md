@@ -37,16 +37,7 @@ pip install -r requirements.txt
 
 ### :clock3: Step 3: Run the code
 
-1. Train the model on a scarce GT set 
-
-```
-python main.py -r -g conncomp
-```
-2. Infer on data
-
-```
-python main.py -g full
-```
+Please refer to the notebook FCN-PGM.ipynb for more explanations.  
 
 
 ## :roller_coaster: Project structure
