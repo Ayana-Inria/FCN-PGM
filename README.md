@@ -44,21 +44,19 @@ Please refer to the notebook FCN-PGM.ipynb for more explanations.
 
 ```
 semantic_segmentation
-├── dataset - contains the data loader
-├── input - images to train and test the network 
+├── dataset - contains the json file to create the dataset
+├── experiments - contains the json file to build the experiment
+├── model - contains the hierarchical Markov model 
 ├── net - contains the loss, the network, and the training and testing functions
-├── output - should contain the results of the training / inference
-|   ├── exp_name
-|   └── model.pth
 ├── utils - misc functions
-└── main.py - program to run
+└── FCN+PGM.ipynb - program with instructions and examples
 ```
   
 ## :bento: Data
 
-The model is trained on the [ISPRS Vaihingen dataset](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html) and [ISPRS Potsdam dataset](http://www2.isprs.org/potsdam-2d-semantic-labeling.html). The two datasets consist of VHR optical images (spatial resolutions of 9 and 5cm, respectively), we used the IRRG channels. They can be downloaded on [Kaggle](https://www.kaggle.com/datasets/bkfateam/potsdamvaihingen) and should be inserted in the folder `/input`.
+The model is trained on the [ISPRS Vaihingen dataset](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html) and [ISPRS Potsdam dataset](http://www2.isprs.org/potsdam-2d-semantic-labeling.html). The two datasets consist of VHR optical images (spatial resolutions of 9 and 5cm, respectively), we used the IRRG channels. They can be downloaded on [Kaggle](https://www.kaggle.com/datasets/bkfateam/potsdamvaihingen) and should be inserted in an `input` folder.
 
-The data should have the following structure. 
+The data should have the following structure (refer to the notebook). 
 
 ```
 input
