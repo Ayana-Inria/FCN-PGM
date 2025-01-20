@@ -1,3 +1,8 @@
+# Semantic Segmentation of Remote-Sensing Images Through Fully Convolutional Neural Networks and Hierarchical Probabilistic Graphical Models
+
+
+![screenshot](architecture1.PNG)
+
 This repository contains the code related to the paper:  
 
 M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, "Semantic Segmentation of Remote-Sensing Images Through Fully Convolutional Neural Networks and Hierarchical Probabilistic Graphical Models," IEEE Transactions on Geoscience and Remote Sensing, 2022, [https://inria.hal.science/hal-03534026v1](https://inria.hal.science/hal-03534026v1)[https://ieeexplore.ieee.org/document/9676578](https://ieeexplore.ieee.org/document/9676578).
